@@ -23,7 +23,7 @@ class DataManager():
     A class to download and process stock price data and create features.
     '''
     def __init__(self, 
-                 start_date = "2000-01-01",
+                 start_date = "2023-01-01",
                  end_date = datetime.now().strftime("%Y-%m-%d"),
                  price_dir = PRICE_DATA, 
                  features_path = FEATURES_DATA, 
